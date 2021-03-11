@@ -5,7 +5,8 @@ import { ITask } from '../itask';
 @Component({
   selector: 'app-grocery',
   templateUrl: './app.grocery.html',
-  styleUrls: ['../../../node_modules/bootstrap/dist/css/bootstrap.min.css']
+  styleUrls: ['../../../node_modules/bootstrap/dist/css/bootstrap.min.css',
+'./app.grocery.css']
 })
 
 export class GroceryComponent {
